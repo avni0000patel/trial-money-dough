@@ -72,6 +72,7 @@ const Signup = () => {
                                 required
                             />
                             <br />
+                            <br />
                             <input
                                 className="form-input"
                                 placeholder="Your email"
@@ -82,6 +83,7 @@ const Signup = () => {
                                 required
                             />
                             <br />
+                            <br />
                             <input
                                 className="form-input"
                                 placeholder="******"
@@ -91,6 +93,7 @@ const Signup = () => {
                                 onChange={handleChange}
                                 required
                             />
+                            <br />
                             <br />
                             <button
                                 className="btn btn-block"

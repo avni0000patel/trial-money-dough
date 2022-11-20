@@ -73,6 +73,7 @@ const Login = (props) => {
                                 required
                             />
                             <br />
+                            <br />
                             <input
                                 className="form-input"
                                 placeholder="******"
@@ -82,6 +83,7 @@ const Login = (props) => {
                                 onChange={handleChange}
                                 required
                             />
+                            <br />
                             <br />
                             <button
                                 className="btn btn-block"
