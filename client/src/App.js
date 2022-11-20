@@ -10,9 +10,9 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import Background from './components/Home/background';
 import Home from './components/Home/home';
-import Signup from './pages/Signup';
-import Login from './pages/Login';
-import Header from './components/Header';
+import Signup from './components/Home/signup';
+import Login from './components/Home/login';
+import Nav from './components/Home/nav';
 import Footer from './components/Footer';
 
 // Construct our main GraphQL API endpoint
@@ -45,7 +45,7 @@ function App() {
       <Router>
         <div className="flex-column justify-flex-start min-100-vh">
           <Background />
-          <Header />
+          <Nav />
           <div className="container">
             <Routes>
               <Route
