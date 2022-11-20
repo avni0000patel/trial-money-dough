@@ -93,8 +93,8 @@ const Signup = () => {
                             />
                             <br />
                             <button
-                                className="btn btn-block btn-primary"
-                                style={{ cursor: 'pointer' }}
+                                className="btn btn-block"
+                                style={styles.button}
                                 type="submit"
                             >
                                 Submit
