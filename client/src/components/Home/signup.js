@@ -69,6 +69,7 @@ const Signup = () => {
                                 type="text"
                                 value={formState.name}
                                 onChange={handleChange}
+                                required
                             />
                             <br />
                             <input
@@ -78,6 +79,7 @@ const Signup = () => {
                                 type="email"
                                 value={formState.email}
                                 onChange={handleChange}
+                                required
                             />
                             <br />
                             <input
@@ -87,6 +89,7 @@ const Signup = () => {
                                 type="password"
                                 value={formState.password}
                                 onChange={handleChange}
+                                required
                             />
                             <br />
                             <button

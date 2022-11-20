@@ -70,6 +70,7 @@ const Login = (props) => {
                                 type="email"
                                 value={formState.email}
                                 onChange={handleChange}
+                                required
                             />
                             <br />
                             <input
@@ -79,6 +80,7 @@ const Login = (props) => {
                                 type="password"
                                 value={formState.password}
                                 onChange={handleChange}
+                                required
                             />
                             <br />
                             <button
