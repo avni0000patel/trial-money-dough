@@ -10,10 +10,9 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import Background from './components/Home/background';
 import Home from './components/Home/home';
-import Signup from './components/Home/signup';
 import Login from './components/Home/login';
+import Signup from './components/Home/signup';
 import Nav from './components/Home/nav';
-import Footer from './components/Footer';
 
 // Construct our main GraphQL API endpoint
 const httpLink = createHttpLink({
@@ -62,7 +61,6 @@ function App() {
               />
             </Routes>
           </div>
-          <Footer />
         </div>
       </Router>
     </ApolloProvider>
